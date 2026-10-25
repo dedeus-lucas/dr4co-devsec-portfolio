@@ -79,7 +79,7 @@ async function optimizeAll() {
   let totalBefore = 0;
   let totalAfter = 0;
 
-  console.log("Optimizing assets for Shield Protocol...");
+  console.log("Optimizing assets for Égide Protocol...");
 
   for (const item of images) {
     if (!fs.existsSync(item.file)) continue;

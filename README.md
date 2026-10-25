@@ -1,4 +1,4 @@
-# ⚡ SHIELD PROTOCOL // CYBERSECURITY ARCHITECTURE (SYS.v2)
+# ⚡ ÉGIDE PROTOCOL // CYBERSECURITY ARCHITECTURE (SYS.v2)
 
 ![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-00f0ff?style=for-the-badge&logo=cloudflare)
 ![License](https://img.shields.io/badge/LICENSE-MIT-purple?style=for-the-badge)
@@ -15,7 +15,7 @@
 ## ENGLISH DOCUMENTATION
 
 ### Overview
-Shield Protocol is a specialized, production-ready technical portfolio and interface engineered for cybersecurity operations, offensive adversary emulation, and defensive system architecture. Built upon a Tactical Military Retro-Cyberpunk design system (HUD telemetry, isolation barriers, and volatile memory buffers), it is optimized for sub-millisecond responsiveness, zero-overhead asset delivery, and resilient critical infrastructure patterns.
+Égide Protocol is a specialized, production-ready technical portfolio and interface engineered for cybersecurity operations, offensive adversary emulation, and defensive system architecture. Built upon a Tactical Military Retro-Cyberpunk design system (HUD telemetry, isolation barriers, and volatile memory buffers), it is optimized for sub-millisecond responsiveness, zero-overhead asset delivery, and resilient critical infrastructure patterns.
 
 ### Core Security Capabilities
 - Cybersecurity Engineering: Resilient distributed systems architecture, enterprise threat modeling, RESTful API hardening, and defense-in-depth enforcement.
@@ -34,7 +34,7 @@ Shield Protocol is a specialized, production-ready technical portfolio and inter
 ### Repository Structure
 
 ```text
-Shield-Protocol/
+dr4co-devsec-portfolio/
 ├── .github/
 │   └── workflows/
 │       └── devsecops-ci.yml
@@ -82,8 +82,8 @@ Shield-Protocol/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/dedeus-lucas/shield-protocol.git
-cd shield-protocol
+git clone https://github.com/dedeus-lucas/dr4co-devsec-portfolio.git
+cd dr4co-devsec-portfolio
 ```
 
 2. Install project dependencies:
@@ -118,7 +118,7 @@ Distributed under the MIT License. See LICENSE for full terms and conditions.
 ## DOCUMENTAÇÃO EM PORTUGUÊS
 
 ### Visão Geral
-O Shield Protocol é uma interface e portfólio técnico de alto nível, desenvolvido para demonstrar competências práticas em engenharia de segurança cibernética, operações de Red Team e arquitetura defensiva de sistemas. Construído sob uma direção visual Retro-Cyberpunk Tática Militar (telemetria em HUD, malhas de contenção e buffers voláteis), a aplicação prioriza zero overhead de execução, renderização veloz e princípios de resiliência aplicados a infraestruturas críticas.
+O Égide Protocol é uma interface e portfólio técnico de alto nível, desenvolvido para demonstrar competências práticas em engenharia de segurança cibernética, operações de Red Team e arquitetura defensiva de sistemas. Construído sob uma direção visual Retro-Cyberpunk Tática Militar (telemetria em HUD, malhas de contenção e buffers voláteis), a aplicação prioriza zero overhead de execução, renderização veloz e princípios de resiliência aplicados a infraestruturas críticas.
 
 ### Pilares de Atuação em Segurança
 - Engenharia de Cibersegurança: Arquitetura de sistemas resilientes, modelagem de ameaças corporativas, proteção ativa de APIs RESTful e aplicação de defesa em profundidade.
@@ -137,7 +137,7 @@ O Shield Protocol é uma interface e portfólio técnico de alto nível, desenvo
 ### Estrutura do Repositório
 
 ```text
-Shield-Protocol/
+dr4co-devsec-portfolio/
 ├── .github/
 │   └── workflows/
 │       └── devsecops-ci.yml
@@ -185,8 +185,8 @@ Shield-Protocol/
 1. Clonar o repositório oficial:
 
 ```bash
-git clone https://github.com/dedeus-lucas/shield-protocol.git
-cd shield-protocol
+git clone https://github.com/dedeus-lucas/dr4co-devsec-portfolio.git
+cd dr4co-devsec-portfolio
 ```
 
 2. Instalar as dependências do projeto:
@@ -219,5 +219,5 @@ Este projeto é distribuído sob os termos da licença MIT. Consulte o arquivo L
 ---
 
 <p align="center">
-  <b>SHIELD PROTOCOL &copy; 2024 - 2026 // CYBERSECURITY ARCHITECTURE & RED OPS</b>
+  <b>ÉGIDE PROTOCOL &copy; 2024 - 2026 // CYBERSECURITY ARCHITECTURE & RED OPS</b>
 </p>

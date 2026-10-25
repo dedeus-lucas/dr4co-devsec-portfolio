@@ -1,4 +1,4 @@
-name: Shield Protocol DevSecOps & CI Pipeline
+name: Égide Protocol DevSecOps & CI Pipeline
 
 on:
   push:

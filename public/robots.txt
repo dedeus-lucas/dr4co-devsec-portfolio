@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dedeus-lucas.github.io/shield-protocol/sitemap.xml
+Sitemap: https://dedeus-lucas.github.io/dr4co-devsec-portfolio/sitemap.xml

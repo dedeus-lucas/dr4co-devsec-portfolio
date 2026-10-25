@@ -94,7 +94,7 @@ export const translations = {
     p3Btn: "VER NO GITHUB \u2192",
 
     p4Cat: "04 // DEVSECOPS & AUTOMATION",
-    p4Title: "Shield DevSecOps Hardened Pipeline",
+    p4Title: "Égide DevSecOps Hardened Pipeline",
     p4Desc:
       "Esteira de CI/CD blindada implementada com GitHub Actions. Executa varredura estática de segurança (SAST via Semgrep), detecção profunda de segredos (TruffleHog), auditoria de dependências (SCA) e verificação rigorosa de build.",
     p4Btn: "VER WORKFLOW \u2192",
@@ -210,7 +210,7 @@ export const translations = {
     p3Btn: "VIEW ON GITHUB \u2192",
 
     p4Cat: "04 // DEVSECOPS & AUTOMATION",
-    p4Title: "Shield DevSecOps Hardened Pipeline",
+    p4Title: "Égide DevSecOps Hardened Pipeline",
     p4Desc:
       "Hardened CI/CD pipeline implemented via GitHub Actions. Enforces Static Application Security Testing (SAST via Semgrep), verified Secret Scanning (TruffleHog), dependency auditing (SCA), and strict production build gating.",
     p4Btn: "VIEW WORKFLOW \u2192",
@@ -233,11 +233,11 @@ export const translations = {
   },
 };
 
-const STORAGE_KEY = "shield_protocol_lang";
+const STORAGE_KEY = "egide_protocol_lang";
 
 function getInitialLanguage() {
   try {
-    const saved = localStorage.getItem(STORAGE_KEY);
+    const saved = localStorage.getItem(STORAGE_KEY) || localStorage.getItem("shield_protocol_lang");
     if (saved && (saved === "pt-BR" || saved === "en-US")) {
       return saved;
     }
