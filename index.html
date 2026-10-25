@@ -583,7 +583,7 @@
               <span class="hud-corner-tl"></span>
               <span class="hud-corner-tr"></span>
               <span class="project-card-cat" data-i18n="p1Cat"
-                >01 // VAULT & CRIPTOGRAFIA</span
+                >01 // VAULT &amp; CRIPTOGRAFIA</span
               >
               <span class="project-status-pill">SYS.ONLINE</span>
             </div>
@@ -601,20 +601,17 @@
                   Sentinel-Vault Core Engine
                 </h3>
                 <p class="project-card-desc" data-i18n="p1Desc">
-                  Núcleo central de cofre criptográfico projetado para
-                  isolamento estrito de credenciais através do algoritmo
-                  AES-256-GCM.
+                  Plataforma stateless de gerenciamento de segredos e auditoria de segurança construída em Java 21 e Spring Boot. Implementa isolamento criptográfico AES-256-GCM, mitigação de BOLA e esteira Shift-Left com Semgrep e TruffleHog.
                 </p>
               </div>
               <div class="project-card-footer">
                 <div
                   class="project-card-techs"
-                  title="Tecnologias: Java 21, Spring Boot, Spring Security, AES-256-GCM, BCrypt, PostgreSQL, Flyway, Docker, Semgrep, Snyk, TruffleHog, Prometheus"
+                  title="Tecnologias: Java 21, Spring Boot, Spring Security, AES-256-GCM, OAuth 2.1, PostgreSQL, Docker, Semgrep, TruffleHog, Prometheus"
                 >
                   <span class="tech-icon">&gt;</span>
                   <span class="tech-label"
-                    >Java 21 • Spring Boot • AES-256-GCM • PostgreSQL •
-                    Docker</span
+                    >Java 21 • Spring Boot • AES-256-GCM • OAuth 2.1 • PostgreSQL • Docker</span
                   >
                 </div>
                 <a
@@ -635,7 +632,7 @@
               <span class="hud-corner-tl"></span>
               <span class="hud-corner-tr"></span>
               <span class="project-card-cat" data-i18n="p2Cat"
-                >02 // INJEÇÃO EM MEMÓRIA</span
+                >02 // INJEÇÃO EM MEMÓRIA RAM</span
               >
               <span class="project-status-pill">STEALTH_RAM</span>
             </div>
@@ -653,19 +650,17 @@
                   Sentinel Env Injector
                 </h3>
                 <p class="project-card-desc" data-i18n="p2Desc">
-                  Extensão para Spring Boot que intercepta a inicialização do
-                  contexto para injetar segredos do Vault diretamente na memória
-                  RAM volátil.
+                  Extensão para Spring Boot (SPI) que intercepta o bootstrap do contexto para injetar segredos do Vault diretamente na memória RAM volátil. Aplica higienização ativa de memória (sobrescrita com zeros) e assegura persistência zero em disco.
                 </p>
               </div>
               <div class="project-card-footer">
                 <div
                   class="project-card-techs"
-                  title="Tecnologias: Java 21, Spring Boot SPI, In-Memory Decryption, Zero-Disk Persistence, Security Hardening"
+                  title="Tecnologias: Java 21, Spring Boot SPI, In-Memory Decryption, Zero-Disk Persistence, Active Memory Hygiene"
                 >
                   <span class="tech-icon">&gt;</span>
                   <span class="tech-label"
-                    >Java 21 • Spring Boot SPI • RAM Injection • Zero-Disk</span
+                    >Java 21 • Spring SPI • In-Memory Decryption • Zero-Disk • Memory Hygiene</span
                   >
                 </div>
                 <a
@@ -680,15 +675,15 @@
             </div>
           </article>
 
-          <!-- Card 3: Identity Guard OAuth2 Server -->
+          <!-- Card 3: Cloud Identity & Zero Trust Lab -->
           <article class="project-card" data-cursor="hover">
             <div class="project-card-header-hud">
               <span class="hud-corner-tl"></span>
               <span class="hud-corner-tr"></span>
               <span class="project-card-cat" data-i18n="p3Cat"
-                >03 // API & MICROSSERVIÇOS</span
+                >03 // CLOUD IDENTITY &amp; IAM</span
               >
-              <span class="project-status-pill">AUTH_GUARD</span>
+              <span class="project-status-pill">LAB.RESEARCH</span>
             </div>
             <div
               class="project-card-image"
@@ -701,45 +696,43 @@
             <div class="project-card-body">
               <div>
                 <h3 class="project-card-title" data-i18n="p3Title">
-                  Identity Guard OAuth2 Server
+                  Cloud Identity &amp; Zero Trust Lab
                 </h3>
                 <p class="project-card-desc" data-i18n="p3Desc">
-                  Servidor centralizado de autenticação e autorização com
-                  suporte a tokens JWT e controle de acesso RBAC construído em
-                  Spring Boot.
+                  Laboratório de pesquisa e implementação arquitetural focada em Zero Trust, controle de acesso baseado em papéis (RBAC/ABAC), federação de identidades com OAuth 2.1 / OIDC e governança de privilégio mínimo em nuvem.
                 </p>
               </div>
               <div class="project-card-footer">
                 <div
                   class="project-card-techs"
-                  title="Tecnologias: Java 21, Spring Boot, Spring Security, OAuth2, JWT, RBAC, PostgreSQL"
+                  title="Tecnologias: OAuth 2.1, OIDC, RBAC / ABAC, Cloud IAM, Zero Trust, JWT"
                 >
                   <span class="tech-icon">&gt;</span>
                   <span class="tech-label"
-                    >Java • Spring Security • OAuth2/JWT • RBAC</span
+                    >OAuth 2.1 • OIDC • RBAC / ABAC • Cloud IAM • Zero Trust • JWT</span
                   >
                 </div>
                 <a
-                  href="https://github.com/dedeus-lucas/identity-guard-oauth2"
+                  href="https://github.com/dedeus-lucas"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="project-card-link"
-                  data-i18n="projectCaseBtn"
-                  >VER DETALHES &rarr;</a
+                  data-i18n="p3Btn"
+                  >VER NO GITHUB &rarr;</a
                 >
               </div>
             </div>
           </article>
 
-          <!-- Card 4: Hardened Pipeline CI/CD -->
+          <!-- Card 4: Shield DevSecOps Hardened Pipeline -->
           <article class="project-card" data-cursor="hover">
             <div class="project-card-header-hud">
               <span class="hud-corner-tl"></span>
               <span class="hud-corner-tr"></span>
               <span class="project-card-cat" data-i18n="p4Cat"
-                >04 // DEVSECOPS & INFRA</span
+                >04 // DEVSECOPS &amp; AUTOMATION</span
               >
-              <span class="project-status-pill">DEVSECOPS</span>
+              <span class="project-status-pill">CI_CD.ENFORCED</span>
             </div>
             <div
               class="project-card-image"
@@ -752,31 +745,29 @@
             <div class="project-card-body">
               <div>
                 <h3 class="project-card-title" data-i18n="p4Title">
-                  Hardened Pipeline CI/CD
+                  Shield DevSecOps Hardened Pipeline
                 </h3>
                 <p class="project-card-desc" data-i18n="p4Desc">
-                  Pipeline automatizado com análise estática de código (SAST),
-                  verificação de dependências vulneráveis e deploy seguro em
-                  contêineres.
+                  Esteira de CI/CD blindada implementada com GitHub Actions. Executa varredura estática de segurança (SAST via Semgrep), detecção profunda de segredos (TruffleHog), auditoria de dependências (SCA) e verificação rigorosa de build.
                 </p>
               </div>
               <div class="project-card-footer">
                 <div
                   class="project-card-techs"
-                  title="Tecnologias: GitHub Actions, Docker Multi-Stage, Semgrep (SAST), Snyk (SCA), TruffleHog (Secrets), OWASP"
+                  title="Tecnologias: GitHub Actions, Semgrep (SAST), TruffleHog (Secrets), Shift-Left, Docker"
                 >
                   <span class="tech-icon">&gt;</span>
                   <span class="tech-label"
-                    >GitHub Actions • Semgrep • Snyk • TruffleHog • Docker</span
+                    >GitHub Actions • Semgrep (SAST) • TruffleHog • Shift-Left • Docker</span
                   >
                 </div>
                 <a
-                  href="https://github.com/dedeus-lucas/hardened-pipeline-cicd"
+                  href="https://github.com/dedeus-lucas/dr4co-dev-portfolio/blob/main/.github/workflows/devsecops-ci.yml"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="project-card-link"
-                  data-i18n="projectCaseBtn"
-                  >VER DETALHES &rarr;</a
+                  data-i18n="p4Btn"
+                  >VER WORKFLOW &rarr;</a
                 >
               </div>
             </div>

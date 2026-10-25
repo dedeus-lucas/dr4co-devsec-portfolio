@@ -80,22 +80,24 @@ export const translations = {
     p1Cat: "01 // VAULT & CRIPTOGRAFIA",
     p1Title: "Sentinel-Vault Core Engine",
     p1Desc:
-      "Núcleo central de cofre criptográfico projetado para isolamento estrito de credenciais através do algoritmo AES-256-GCM. Elimina vazamento de segredos em pipelines de CI/CD e infraestruturas distribuídas com auditoria imutável.",
+      "Plataforma stateless de gerenciamento de segredos e auditoria de segurança construída em Java 21 e Spring Boot. Implementa isolamento criptográfico AES-256-GCM, mitigação de BOLA e esteira Shift-Left com Semgrep e TruffleHog.",
 
-    p2Cat: "02 // INJEÇÃO EM MEMÓRIA",
+    p2Cat: "02 // INJEÇÃO EM MEMÓRIA RAM",
     p2Title: "Sentinel Env Injector",
     p2Desc:
-      "Extensão para Spring Boot que intercepta a inicialização do contexto para injetar segredos do Vault diretamente na memória RAM volátil, garantindo persistência zero em disco e descarte seguro.",
+      "Extensão para Spring Boot (SPI) que intercepta o bootstrap do contexto para injetar segredos do Vault diretamente na memória RAM volátil. Aplica higienização ativa de memória (sobrescrita com zeros) e assegura persistência zero em disco.",
 
-    p3Cat: "03 // API & MICROSSERVIÇOS",
-    p3Title: "Identity Guard OAuth2 Server",
+    p3Cat: "03 // CLOUD IDENTITY & IAM",
+    p3Title: "Cloud Identity & Zero Trust Lab",
     p3Desc:
-      "Servidor centralizado de autenticação e autorização com suporte a tokens JWT e controle de acesso baseado em papéis (RBAC) construído em Spring Boot.",
+      "Laboratório de pesquisa e implementação arquitetural focada em Zero Trust, controle de acesso baseado em papéis (RBAC/ABAC), federação de identidades com OAuth 2.1 / OIDC e governança de privilégio mínimo em nuvem.",
+    p3Btn: "VER NO GITHUB \u2192",
 
-    p4Cat: "04 // DEVSECOPS & INFRA",
-    p4Title: "Hardened Pipeline CI/CD",
+    p4Cat: "04 // DEVSECOPS & AUTOMATION",
+    p4Title: "Shield DevSecOps Hardened Pipeline",
     p4Desc:
-      "Pipeline automatizado com análise estática de código (SAST via Semgrep), verificação de dependências vulneráveis (SCA via Snyk), Secret Scanning (TruffleHog) e deploy seguro em contêineres Docker.",
+      "Esteira de CI/CD blindada implementada com GitHub Actions. Executa varredura estática de segurança (SAST via Semgrep), detecção profunda de segredos (TruffleHog), auditoria de dependências (SCA) e verificação rigorosa de build.",
+    p4Btn: "VER WORKFLOW \u2192",
 
     // Seção 6: Contato
     contactTag: "[ CONTATO // CANAIS DIRETO ]",
@@ -194,22 +196,24 @@ export const translations = {
     p1Cat: "01 // VAULT & CRYPTOGRAPHY",
     p1Title: "Sentinel-Vault Core Engine",
     p1Desc:
-      "Central cryptographic vault core engineered for strict credential isolation via the AES-256-GCM algorithm. Eliminates secret leakage across CI/CD pipelines and distributed infrastructures while providing immutable auditing.",
+      "Stateless secrets management and security auditing platform built with Java 21 and Spring Boot. Implements cryptographic isolation via AES-256-GCM, rigid BOLA (Broken Object Level Authorization) mitigation, and Shift-Left CI/CD with Semgrep and TruffleHog.",
 
     p2Cat: "02 // IN-MEMORY INJECTION",
     p2Title: "Sentinel Env Injector",
     p2Desc:
-      "Spring Boot extension that intercepts context initialization to inject Vault secrets directly into volatile RAM memory. Guarantees zero-disk persistence by applying active memory hygiene.",
+      "Spring Boot SPI extension that intercepts context bootstrap to inject Vault secrets directly into volatile RAM memory. Applies active memory hygiene (zero-fill buffer overwrite) and guarantees zero-disk persistence.",
 
-    p3Cat: "03 // API & MICROSERVICES",
-    p3Title: "Identity Guard OAuth2 Server",
+    p3Cat: "03 // CLOUD IDENTITY & IAM",
+    p3Title: "Cloud Identity & Zero Trust Lab",
     p3Desc:
-      "Centralized authentication and authorization server with JWT token support and RBAC access control built in Spring Boot.",
+      "Architectural research lab exploring Zero Trust foundations, role-based access control (RBAC/ABAC), identity federation via OAuth 2.1 / OIDC, and cloud least-privilege governance.",
+    p3Btn: "VIEW ON GITHUB \u2192",
 
-    p4Cat: "04 // DEVSECOPS & INFRA",
-    p4Title: "Hardened Pipeline CI/CD",
+    p4Cat: "04 // DEVSECOPS & AUTOMATION",
+    p4Title: "Shield DevSecOps Hardened Pipeline",
     p4Desc:
-      "Automated pipeline with static code analysis (SAST via Semgrep), vulnerable dependency scanning (SCA via Snyk), Secret Scanning (TruffleHog), and secure Docker container deployment.",
+      "Hardened CI/CD pipeline implemented via GitHub Actions. Enforces Static Application Security Testing (SAST via Semgrep), verified Secret Scanning (TruffleHog), dependency auditing (SCA), and strict production build gating.",
+    p4Btn: "VIEW WORKFLOW \u2192",
 
     // Section 6: Contact
     contactTag: "[ CONTACT // DIRECT CHANNELS ]",
