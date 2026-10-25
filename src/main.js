@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initI18n();
   initFooterYear();
 
-  console.log("[SYSTEM] Égide Protocol operational with Ghost in the Shell HUD overlays.");
+  console.log("[SYSTEM] DR4CO.DEVSEC operational with Ghost in the Shell HUD overlays.");
 });

@@ -1,4 +1,4 @@
-name: Égide Protocol DevSecOps & CI Pipeline
+name: DR4CO.DEVSEC DevSecOps & CI Pipeline
 
 on:
   push:

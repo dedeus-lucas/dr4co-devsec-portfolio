@@ -1,4 +1,4 @@
-# ⚡ ÉGIDE PROTOCOL // CYBERSECURITY ARCHITECTURE (SYS.v2)
+# ⚡ DR4CO.DEVSEC // CYBERSECURITY & CLOUD SECURITY ARCHITECTURE (SYS.v2)
 
 ![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-00f0ff?style=for-the-badge&logo=cloudflare)
 ![License](https://img.shields.io/badge/LICENSE-MIT-purple?style=for-the-badge)
@@ -15,7 +15,7 @@
 ## ENGLISH DOCUMENTATION
 
 ### Overview
-Égide Protocol is a specialized, production-ready technical portfolio and interface engineered for cybersecurity operations, offensive adversary emulation, and defensive system architecture. Built upon a Tactical Military Retro-Cyberpunk design system (HUD telemetry, isolation barriers, and volatile memory buffers), it is optimized for sub-millisecond responsiveness, zero-overhead asset delivery, and resilient critical infrastructure patterns.
+DR4CO.DEVSEC is a personal technical portfolio and tactical interface engineered by Lucas Silva de Deus for cybersecurity operations, cloud security architecture, and offensive adversary emulation. Built upon a Tactical Military Retro-Cyberpunk design system (HUD telemetry, isolation barriers, and volatile memory buffers), it is optimized for sub-millisecond responsiveness, zero-overhead asset delivery, and resilient critical infrastructure patterns.
 
 ### Core Security Capabilities
 - Cybersecurity Engineering: Resilient distributed systems architecture, enterprise threat modeling, RESTful API hardening, and defense-in-depth enforcement.
@@ -118,7 +118,7 @@ Distributed under the MIT License. See LICENSE for full terms and conditions.
 ## DOCUMENTAÇÃO EM PORTUGUÊS
 
 ### Visão Geral
-O Égide Protocol é uma interface e portfólio técnico de alto nível, desenvolvido para demonstrar competências práticas em engenharia de segurança cibernética, operações de Red Team e arquitetura defensiva de sistemas. Construído sob uma direção visual Retro-Cyberpunk Tática Militar (telemetria em HUD, malhas de contenção e buffers voláteis), a aplicação prioriza zero overhead de execução, renderização veloz e princípios de resiliência aplicados a infraestruturas críticas.
+O DR4CO.DEVSEC é o portfólio técnico pessoal e interface tática de Lucas Silva de Deus, desenvolvido para demonstrar competências práticas em engenharia de segurança cibernética, arquitetura de Cloud Security, esteiras DevSecOps e operações de Red Team. Construído sob uma direção visual Retro-Cyberpunk Tática Militar (telemetria em HUD, malhas de contenção e buffers voláteis), a aplicação prioriza zero overhead de execução, renderização veloz e princípios de resiliência aplicados a infraestruturas críticas.
 
 ### Pilares de Atuação em Segurança
 - Engenharia de Cibersegurança: Arquitetura de sistemas resilientes, modelagem de ameaças corporativas, proteção ativa de APIs RESTful e aplicação de defesa em profundidade.
@@ -219,5 +219,5 @@ Este projeto é distribuído sob os termos da licença MIT. Consulte o arquivo L
 ---
 
 <p align="center">
-  <b>ÉGIDE PROTOCOL &copy; 2024 - 2026 // CYBERSECURITY ARCHITECTURE & RED OPS</b>
+  <b>DR4CO.DEVSEC &copy; 2024 - 2026 // CYBERSECURITY & CLOUD SECURITY ARCHITECTURE</b>
 </p>
