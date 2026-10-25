@@ -29,7 +29,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: width 0.3s var(--ease-out-expo),
+  transition:
+    width 0.3s var(--ease-out-expo),
     height 0.3s var(--ease-out-expo),
     border-color 0.3s ease,
     background-color 0.3s ease;
@@ -38,7 +39,7 @@
 /* Mira tática estilo Ghost in the Shell */
 .hud-cursor-ring::before,
 .hud-cursor-ring::after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--accent-cyan);
   opacity: 0.3;
@@ -77,8 +78,7 @@ body.cursor-hover .hud-cursor-dot {
 }
 
 /* Esconde o HUD Cursor em telas mobile/touch */
-@media (max-width: 768px),
-(pointer: coarse) {
+@media (max-width: 768px), (pointer: coarse) {
   .hud-cursor-wrapper {
     display: none !important;
   }

@@ -28,7 +28,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initI18n();
   initFooterYear();
 
-  console.log(
-    "[SYSTEM] Shield Protocol operational with Ghost in the Shell HUD overlays.",
-  );
+  console.log("[SYSTEM] Shield Protocol operational with Ghost in the Shell HUD overlays.");
 });

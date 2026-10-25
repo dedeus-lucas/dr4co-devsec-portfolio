@@ -1,6 +1,6 @@
 export function initHudBackground() {
   const sections = document.querySelectorAll(
-    ".manifesto-section, .journey-section, .bento-section",
+    ".manifesto-section, .journey-section, .bento-section"
   );
 
   const codeSnippet = String.raw`

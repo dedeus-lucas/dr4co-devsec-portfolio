@@ -30,8 +30,7 @@ export const translations = {
 
     // Seção 3: Jornada // Trajetória
     journeySectionTag: "[ JORNADA // TRAJETÓRIA ]",
-    journeyTitle:
-      "Evolução técnica contínua e fundamentada em engenharia e segurança ofensiva",
+    journeyTitle: "Evolução técnica contínua e fundamentada em engenharia e segurança ofensiva",
     journeySubtitle:
       "Construção gradual de conhecimento prático, transicionando da base teórica e suporte operacional para arquitetura de sistemas seguros, DevSecOps e simulação de adversários.",
     j2024Title: "Fundamentos & Ciência da Computação",

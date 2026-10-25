@@ -33,16 +33,10 @@ export function initHudCursor() {
     gsap.set(cursorRing, { x: pos.x, y: pos.y });
   });
 
-  const interactiveElements = document.querySelectorAll(
-    'a, button, [data-cursor="hover"]',
-  );
+  const interactiveElements = document.querySelectorAll('a, button, [data-cursor="hover"]');
 
   interactiveElements.forEach((el) => {
-    el.addEventListener("mouseenter", () =>
-      document.body.classList.add("cursor-hover"),
-    );
-    el.addEventListener("mouseleave", () =>
-      document.body.classList.remove("cursor-hover"),
-    );
+    el.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
+    el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
   });
 }

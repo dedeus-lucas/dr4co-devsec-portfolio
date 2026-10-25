@@ -80,7 +80,9 @@
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
-  transition: border-color 0.3s ease, transform 0.3s var(--ease-out-expo);
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s var(--ease-out-expo);
 }
 
 .journey-card:hover {

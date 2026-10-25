@@ -2,7 +2,8 @@
 
 ![Status](https://img.shields.io/badge/STATUS-OPERATIONAL-00f0ff?style=for-the-badge&logo=cloudflare)
 ![License](https://img.shields.io/badge/LICENSE-MIT-purple?style=for-the-badge)
-![Vite](https://img.shields.io/badge/BUILD-VITE_5-646CFF?style=for-the-badge&logo=vite)
+![DevSecOps](https://img.shields.io/badge/DEVSECOPS-ENFORCED-00ff88?style=for-the-badge&logo=githubactions&logoColor=white)
+![Build](https://img.shields.io/badge/BUILD-VITE-646CFF?style=for-the-badge&logo=vite)
 ![Focus](https://img.shields.io/badge/FOCUS-SECURITY%20ENGINEERING%20%7C%20DEVSECOPS%20%7C%20RED%20TEAM-green?style=for-the-badge)
 
 [ 🌐 Language Selection / Seleção de Idioma ]
@@ -23,7 +24,8 @@ Shield Protocol is a specialized, production-ready technical portfolio and inter
 - Offensive Security & Red Team: Penetration testing fundamentals, OWASP Top 10 vulnerability mitigation, adversary emulation, and tactical automation via Python and Linux internals.
 
 ### Technical Architecture
-- Build Tooling: Vite 5 for instant Hot Module Replacement (HMR) and tree-shaken static compilation.
+- DevSecOps & Security Enforcement: Automated GitHub Actions pipeline running SAST (Semgrep), Secret Scanning (TruffleHog), SCA/Dependency Audits (`npm audit`), and code quality enforcement.
+- Build Tooling: Vite for instant Hot Module Replacement (HMR) and tree-shaken static compilation.
 - Kinetic & Animation Engine: GSAP ScrollTrigger for pinned horizontal inspection galleries and Lenis for 60 FPS inertial smooth scrolling.
 - HUD & Telemetry Overlay: Dynamic offensive Java/Security code stream illuminated by a pure CSS3 spotlight sweep mask.
 - Decoupled i18n Architecture: Custom zero-overhead JavaScript engine for instant runtime switching between pt-BR and en-US dictionaries.
@@ -33,6 +35,9 @@ Shield Protocol is a specialized, production-ready technical portfolio and inter
 
 ```text
 Shield-Protocol/
+├── .github/
+│   └── workflows/
+│       └── devsecops-ci.yml
 ├── public/
 │   ├── assets/
 │   │   └── images/
@@ -40,6 +45,7 @@ Shield-Protocol/
 ├── src/
 │   ├── scripts/
 │   │   ├── cursor.js
+│   │   ├── footer-year.js
 │   │   ├── hero.js
 │   │   ├── hud-background.js
 │   │   ├── i18n.js
@@ -59,6 +65,8 @@ Shield-Protocol/
 │   │   ├── services.css
 │   │   └── variables.css
 │   └── main.js
+├── .prettierrc
+├── .prettierignore
 ├── index.html
 ├── vite.config.js
 ├── package.json
@@ -115,7 +123,8 @@ O Shield Protocol é uma interface e portfólio técnico de alto nível, desenvo
 - Segurança Ofensiva & Red Team: Fundamentos de testes de intrusão (Pentest), mitigação dos vetores do OWASP Top 10, simulação de adversários e automação de scripts táticos em Python e ambiente Linux.
 
 ### Arquitetura & Engenharia Técnica
-- Ferramental de Build: Vite 5 com compilação estática otimizada, bundling enxuto e Hot Module Replacement (HMR) instantâneo.
+- Esteira DevSecOps Ativa: Pipeline automatizado no GitHub Actions com SAST (Semgrep), detecção de segredos (TruffleHog), auditoria de dependências (`npm audit`) e validação de qualidade de código.
+- Ferramental de Build: Vite com compilação estática otimizada, bundling enxuto e Hot Module Replacement (HMR) instantâneo.
 - Camada Cinética & Animações: GSAP ScrollTrigger para pinning e rolagem horizontal na galeria de projetos e motor Lenis para rolagem inercial suave a 60 FPS.
 - Telemetria & HUD Dinâmico: Overlay com fluxo de código Java/Offensive iluminado por feixe de varredura tático utilizando CSS3 puro (Spotlight Masking).
 - Internacionalização Nativa (i18n): Motor nativo e desacoplado em JavaScript para comutação dinâmica de dicionário (pt-BR / en-US) sem impacto no desempenho.
@@ -125,6 +134,9 @@ O Shield Protocol é uma interface e portfólio técnico de alto nível, desenvo
 
 ```text
 Shield-Protocol/
+├── .github/
+│   └── workflows/
+│       └── devsecops-ci.yml
 ├── public/
 │   ├── assets/
 │   │   └── images/
@@ -132,6 +144,7 @@ Shield-Protocol/
 ├── src/
 │   ├── scripts/
 │   │   ├── cursor.js
+│   │   ├── footer-year.js
 │   │   ├── hero.js
 │   │   ├── hud-background.js
 │   │   ├── i18n.js
@@ -151,6 +164,8 @@ Shield-Protocol/
 │   │   ├── services.css
 │   │   └── variables.css
 │   └── main.js
+├── .prettierrc
+├── .prettierignore
 ├── index.html
 ├── vite.config.js
 ├── package.json

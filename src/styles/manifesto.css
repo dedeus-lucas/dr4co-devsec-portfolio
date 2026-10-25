@@ -27,14 +27,18 @@
   pointer-events: none;
   z-index: 1;
   opacity: 0.85;
-  -webkit-mask-image: radial-gradient(circle 280px at var(--light-x, 5%) var(--light-y, 15%),
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0.4) 60%,
-      rgba(0, 0, 0, 0) 100%);
-  mask-image: radial-gradient(circle 280px at var(--light-x, 5%) var(--light-y, 15%),
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0.4) 60%,
-      rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(
+    circle 280px at var(--light-x, 5%) var(--light-y, 15%),
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    circle 280px at var(--light-x, 5%) var(--light-y, 15%),
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
   animation: sweepLightBeam 14s infinite ease-in-out;
 }
 
@@ -118,13 +122,13 @@
 }
 
 @property --light-x {
-  syntax: '<percentage>';
+  syntax: "<percentage>";
   inherits: false;
   initial-value: 5%;
 }
 
 @property --light-y {
-  syntax: '<percentage>';
+  syntax: "<percentage>";
   inherits: false;
   initial-value: 15%;
 }
@@ -195,7 +199,9 @@
   display: flex;
   flex-direction: column;
   gap: 1.15rem;
-  transition: border-color 0.3s ease, transform 0.3s var(--ease-out-expo);
+  transition:
+    border-color 0.3s ease,
+    transform 0.3s var(--ease-out-expo);
 }
 
 .manifesto-card:hover {

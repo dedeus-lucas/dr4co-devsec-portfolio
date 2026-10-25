@@ -6,13 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format:check": "prettier --check \"src/**/*.{js,css}\"",
+    "format": "prettier --write \"src/**/*.{js,css}\"",
+    "security:audit": "npm audit --audit-level=high"
   },
   "dependencies": {
     "gsap": "^3.12.5",
     "lenis": "^1.1.9"
   },
   "devDependencies": {
-    "vite": "^5.2.0"
+    "prettier": "^3.9.10",
+    "vite": "^8.3.5"
   }
 }

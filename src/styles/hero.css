@@ -12,7 +12,7 @@
 .hero-static-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/assets/images/hero-bg.webp');
+  background-image: url("/assets/images/hero-bg.webp");
   background-size: cover;
   background-position: center;
   filter: brightness(0.92) contrast(1.15);
@@ -23,10 +23,12 @@
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg,
-      rgba(7, 9, 14, 0.2) 0%,
-      rgba(7, 9, 14, 0.5) 75%,
-      var(--bg-primary, #07090e) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 9, 14, 0.2) 0%,
+    rgba(7, 9, 14, 0.5) 75%,
+    var(--bg-primary, #07090e) 100%
+  );
   z-index: 0;
   pointer-events: none;
 }
@@ -50,7 +52,7 @@
   left: 0.8rem;
   top: 28.5%;
   transform: translateY(-50%);
-  font-family: var(--font-sans, 'Plus Jakarta Sans', sans-serif);
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
   font-size: clamp(3.5rem, 7.5vw, 6.9rem);
   font-weight: 900;
   line-height: 1.02;
@@ -109,7 +111,7 @@
 }
 
 .hero-line {
-  font-family: var(--font-sans, 'Plus Jakarta Sans', sans-serif);
+  font-family: var(--font-sans, "Plus Jakarta Sans", sans-serif);
   font-size: clamp(3.5rem, 7.5vw, 6.9rem);
   /* Aumento de 6pt */
   font-weight: 900;
@@ -171,7 +173,9 @@
   border-radius: 4px;
   font-weight: 800;
   text-transform: uppercase;
-  transition: transform 0.3s var(--ease-out-expo), box-shadow 0.3s ease;
+  transition:
+    transform 0.3s var(--ease-out-expo),
+    box-shadow 0.3s ease;
   box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
   text-decoration: none;
 }
@@ -192,7 +196,9 @@
   text-transform: uppercase;
   background: rgba(15, 19, 28, 0.6);
   backdrop-filter: blur(8px);
-  transition: border-color 0.3s ease, background-color 0.3s ease;
+  transition:
+    border-color 0.3s ease,
+    background-color 0.3s ease;
   text-decoration: none;
 }
 
