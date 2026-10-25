@@ -45,6 +45,8 @@ Shield-Protocol/
 │   ├── manifest.json
 │   ├── robots.txt
 │   └── sitemap.xml
+├── scripts/
+│   └── optimize-images.mjs
 ├── src/
 │   ├── scripts/
 │   │   ├── cursor.js
@@ -147,6 +149,8 @@ Shield-Protocol/
 │   ├── manifest.json
 │   ├── robots.txt
 │   └── sitemap.xml
+├── scripts/
+│   └── optimize-images.mjs
 ├── src/
 │   ├── scripts/
 │   │   ├── cursor.js
