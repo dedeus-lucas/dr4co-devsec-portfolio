@@ -9,22 +9,29 @@ export function initHorizontalProjectsScroll() {
 
   if (!pinWrapper || !track) return;
 
-  if (window.innerWidth <= 900) return;
+  const mm = gsap.matchMedia();
 
-  const getScrollAmount = () => {
-    return track.scrollWidth - window.innerWidth + 140;
-  };
+  mm.add("(min-width: 901px)", () => {
+    const getScrollAmount = () => {
+      return track.scrollWidth - window.innerWidth + 140;
+    };
 
-  gsap.to(track, {
-    x: () => -getScrollAmount(),
-    ease: "none",
-    scrollTrigger: {
-      trigger: pinWrapper,
-      start: "top top",
-      end: () => `+=${getScrollAmount()}`,
-      pin: true,
-      scrub: 1,
-      invalidateOnRefresh: true,
-    },
+    const tween = gsap.to(track, {
+      x: () => -getScrollAmount(),
+      ease: "none",
+      scrollTrigger: {
+        trigger: pinWrapper,
+        start: "top top",
+        end: () => `+=${getScrollAmount()}`,
+        pin: true,
+        scrub: 1,
+        invalidateOnRefresh: true,
+      },
+    });
+
+    return () => {
+      tween.kill();
+      gsap.set(track, { clearProps: "transform" });
+    };
   });
 }

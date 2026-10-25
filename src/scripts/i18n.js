@@ -1,5 +1,10 @@
 export const translations = {
   "pt-BR": {
+    // Metadata
+    pageTitle: "Shield Protocol - Cybersecurity Engineering & Red Team",
+    pageDesc:
+      "Portfólio de engenharia de cibersegurança com foco em backend seguro, DevSecOps, Cloud Security, AppSec e operações defensivas.",
+
     // Hero Section
     btnProjects: "Ver Projetos",
     btnContact: "Iniciar Contato",
@@ -108,6 +113,11 @@ export const translations = {
     navResume: "CURRÍCULO",
   },
   "en-US": {
+    // Metadata
+    pageTitle: "Shield Protocol - Cybersecurity Engineering & Red Team",
+    pageDesc:
+      "Cybersecurity engineering portfolio focusing on secure backend, DevSecOps, Cloud Security, AppSec, and offensive security architecture.",
+
     // Hero Section
     btnProjects: "View Projects",
     btnContact: "Get in Touch",
@@ -218,30 +228,78 @@ export const translations = {
   },
 };
 
-let currentLang = "pt-BR";
+const STORAGE_KEY = "shield_protocol_lang";
+
+function getInitialLanguage() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved && (saved === "pt-BR" || saved === "en-US")) {
+      return saved;
+    }
+  } catch (e) {
+    // localStorage not accessible
+  }
+
+  const browserLang =
+    (typeof navigator !== "undefined" && (navigator.language || navigator.userLanguage)) || "";
+  return browserLang.toLowerCase().startsWith("pt") ? "pt-BR" : "en-US";
+}
+
+let currentLang = getInitialLanguage();
+
+export function applyLanguage(lang) {
+  currentLang = lang;
+  try {
+    localStorage.setItem(STORAGE_KEY, lang);
+  } catch (e) {
+    // localStorage not accessible
+  }
+
+  document.documentElement.lang = lang;
+
+  const dict = translations[lang] || translations["pt-BR"];
+
+  if (dict.pageTitle) {
+    document.title = dict.pageTitle;
+  }
+  if (dict.pageDesc) {
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute("content", dict.pageDesc);
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute("content", dict.pageDesc);
+  }
+
+  const langBtns = document.querySelectorAll(".lang-selector");
+  langBtns.forEach((btn) => {
+    btn.textContent = `[ ${lang.toUpperCase()} ]`;
+    btn.setAttribute(
+      "aria-label",
+      lang === "pt-BR" ? "Mudar idioma para Inglês" : "Switch language to Portuguese"
+    );
+  });
+
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const key = el.dataset.i18n;
+    if (dict[key]) {
+      if (key === "manifestoTitle" || key === "contactTitle") {
+        el.innerHTML = dict[key];
+      } else {
+        el.textContent = dict[key];
+      }
+    }
+  });
+}
 
 export function initI18n() {
+  applyLanguage(currentLang);
+
   const langBtns = document.querySelectorAll(".lang-selector");
   if (!langBtns.length) return;
 
   langBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
-      currentLang = currentLang === "pt-BR" ? "en-US" : "pt-BR";
-
-      langBtns.forEach((b) => {
-        b.textContent = `[ ${currentLang.toUpperCase()} ]`;
-      });
-
-      document.querySelectorAll("[data-i18n]").forEach((el) => {
-        const key = el.dataset.i18n;
-        if (translations[currentLang][key]) {
-          if (key === "manifestoTitle" || key === "contactTitle") {
-            el.innerHTML = translations[currentLang][key];
-          } else {
-            el.textContent = translations[currentLang][key];
-          }
-        }
-      });
+      const nextLang = currentLang === "pt-BR" ? "en-US" : "pt-BR";
+      applyLanguage(nextLang);
     });
   });
 }

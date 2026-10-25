@@ -185,14 +185,25 @@
 
       <div class="navbar-actions">
         <button class="lang-selector nav-lang-desktop">[ PT-BR ]</button>
-        <button class="mobile-menu-btn" aria-label="Abrir Menu">
+        <button
+          class="mobile-menu-btn"
+          aria-label="Abrir Menu de Navegação"
+          aria-expanded="false"
+          aria-controls="mobile-nav-overlay"
+        >
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
         </button>
       </div>
 
       <!-- Mobile Menu Overlay -->
-      <div class="mobile-menu-overlay">
+      <div
+        class="mobile-menu-overlay"
+        id="mobile-nav-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Menu de Navegação"
+      >
         <div class="mobile-menu-header">
           <span class="mobile-menu-tag">[ NAVIGATION_SYSTEM ]</span>
           <button class="lang-selector mobile-lang-btn">[ PT-BR ]</button>
@@ -721,8 +732,13 @@
                     >Java • Spring Security • OAuth2/JWT • RBAC</span
                   >
                 </div>
-                <span class="project-card-link" data-i18n="projectCaseBtn"
-                  >VER DETALHES &rarr;</span
+                <a
+                  href="https://github.com/dedeus-lucas/identity-guard-oauth2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-card-link"
+                  data-i18n="projectCaseBtn"
+                  >VER DETALHES &rarr;</a
                 >
               </div>
             </div>
@@ -767,8 +783,13 @@
                     >GitHub Actions • Semgrep • Snyk • TruffleHog • Docker</span
                   >
                 </div>
-                <span class="project-card-link" data-i18n="projectCaseBtn"
-                  >VER DETALHES &rarr;</span
+                <a
+                  href="https://github.com/dedeus-lucas/hardened-pipeline-cicd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-card-link"
+                  data-i18n="projectCaseBtn"
+                  >VER DETALHES &rarr;</a
                 >
               </div>
             </div>

@@ -4,32 +4,53 @@ export function initNavbarScroll() {
   const mobileOverlay = document.querySelector(".mobile-menu-overlay");
   const mobileLinks = document.querySelectorAll(".mobile-menu-link");
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 50) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
+  let isScrolled = false;
+  const onScroll = () => {
+    const shouldScroll = window.scrollY > 50;
+    if (shouldScroll !== isScrolled) {
+      isScrolled = shouldScroll;
+      navbar?.classList.toggle("scrolled", isScrolled);
     }
-  });
+  };
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
 
   if (mobileBtn && mobileOverlay) {
-    mobileBtn.addEventListener("click", () => {
-      mobileBtn.classList.toggle("active");
-      mobileOverlay.classList.toggle("active");
+    const setMenuState = (isOpen) => {
+      mobileBtn.classList.toggle("active", isOpen);
+      mobileOverlay.classList.toggle("active", isOpen);
+      mobileBtn.setAttribute("aria-expanded", String(isOpen));
+      document.body.style.overflow = isOpen ? "hidden" : "";
+    };
 
-      if (mobileOverlay.classList.contains("active")) {
-        document.body.style.overflow = "hidden";
-      } else {
-        document.body.style.overflow = "";
-      }
+    mobileBtn.addEventListener("click", () => {
+      const isOpen = !mobileOverlay.classList.contains("active");
+      setMenuState(isOpen);
     });
 
     mobileLinks.forEach((link) => {
       link.addEventListener("click", () => {
-        mobileBtn.classList.remove("active");
-        mobileOverlay.classList.remove("active");
-        document.body.style.overflow = "";
+        setMenuState(false);
       });
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && mobileOverlay.classList.contains("active")) {
+        setMenuState(false);
+      }
+    });
+
+    mobileOverlay.addEventListener("click", (e) => {
+      if (e.target === mobileOverlay) {
+        setMenuState(false);
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 900 && mobileOverlay.classList.contains("active")) {
+        setMenuState(false);
+      }
     });
   }
 }

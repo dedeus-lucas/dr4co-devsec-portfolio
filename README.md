@@ -51,7 +51,6 @@ Shield-Protocol/
 │   ├── scripts/
 │   │   ├── cursor.js
 │   │   ├── footer-year.js
-│   │   ├── hero.js
 │   │   ├── hud-background.js
 │   │   ├── i18n.js
 │   │   ├── lenis.js
@@ -155,7 +154,6 @@ Shield-Protocol/
 │   ├── scripts/
 │   │   ├── cursor.js
 │   │   ├── footer-year.js
-│   │   ├── hero.js
 │   │   ├── hud-background.js
 │   │   ├── i18n.js
 │   │   ├── lenis.js
