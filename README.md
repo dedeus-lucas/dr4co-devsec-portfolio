@@ -41,7 +41,10 @@ Shield-Protocol/
 ├── public/
 │   ├── assets/
 │   │   └── images/
-│   └── favicon.ico
+│   ├── favicon.ico
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── sitemap.xml
 ├── src/
 │   ├── scripts/
 │   │   ├── cursor.js
@@ -140,7 +143,10 @@ Shield-Protocol/
 ├── public/
 │   ├── assets/
 │   │   └── images/
-│   └── favicon.ico
+│   ├── favicon.ico
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── sitemap.xml
 ├── src/
 │   ├── scripts/
 │   │   ├── cursor.js
