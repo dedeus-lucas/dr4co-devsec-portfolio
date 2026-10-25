@@ -1,7 +1,7 @@
 export const translations = {
   "pt-BR": {
     // Metadata
-    pageTitle: "Shield Protocol // Cybersecurity & Cloud Security Engineering",
+    pageTitle: "DR4CO.DEVSEC // Cybersecurity & Cloud Security Architecture",
     pageDesc:
       "Portfólio de engenharia de cibersegurança e cloud security com foco em arquitetura defensiva, DevSecOps e fundamentos de Red Team por Lucas Silva (DR4CO).",
 
@@ -117,7 +117,7 @@ export const translations = {
   },
   "en-US": {
     // Metadata
-    pageTitle: "Shield Protocol // Cybersecurity & Cloud Security Engineering",
+    pageTitle: "DR4CO.DEVSEC // Cybersecurity & Cloud Security Architecture",
     pageDesc:
       "Cybersecurity and cloud security engineering portfolio focusing on defensive architecture, DevSecOps, and Red Team foundations by Lucas Silva (DR4CO).",
 
