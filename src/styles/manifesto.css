@@ -27,29 +27,54 @@
   pointer-events: none;
   z-index: 1;
   opacity: 0.85;
+}
+
+.java-code-overlay.direction-ltr {
   -webkit-mask-image: radial-gradient(
-    circle 280px at var(--light-x, 5%) var(--light-y, 15%),
+    ellipse 440px 280px at var(--light-x, 5%) var(--light-y, 15%),
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0.4) 60%,
     rgba(0, 0, 0, 0) 100%
   );
   mask-image: radial-gradient(
-    circle 280px at var(--light-x, 5%) var(--light-y, 15%),
+    ellipse 440px 280px at var(--light-x, 5%) var(--light-y, 15%),
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0.4) 60%,
     rgba(0, 0, 0, 0) 100%
   );
-  animation: sweepLightBeam 14s infinite ease-in-out;
+  animation: sweepLightBeamLtr 15s infinite ease-in-out;
+}
+
+.java-code-overlay.direction-rtl {
+  -webkit-mask-image: radial-gradient(
+    ellipse 440px 280px at var(--light-x-rtl, 95%) var(--light-y-rtl, 15%),
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 440px 280px at var(--light-x-rtl, 95%) var(--light-y-rtl, 15%),
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: sweepLightBeamRtl 15s infinite ease-in-out;
+}
+
+.java-code-overlay.direction-rtl .java-code-content {
+  text-align: right;
+  direction: ltr;
 }
 
 .java-code-content {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   line-height: 1.8;
   color: #a0aab8;
-  padding: 3rem;
+  padding: 2.5rem 1.5rem;
   margin: 0;
   width: 100%;
+  box-sizing: border-box;
   white-space: pre;
   user-select: none;
   display: block;
@@ -89,35 +114,57 @@
   font-style: italic;
 }
 
-@keyframes sweepLightBeam {
+@keyframes sweepLightBeamLtr {
   0% {
     --light-x: 5%;
-    --light-y: 15%;
+    --light-y: 12%;
   }
 
-  20% {
-    --light-x: 92%;
-    --light-y: 25%;
+  25% {
+    --light-x: 95%;
+    --light-y: 28%;
   }
 
-  40% {
+  50% {
     --light-x: 8%;
-    --light-y: 50%;
+    --light-y: 55%;
   }
 
-  60% {
+  75% {
     --light-x: 92%;
-    --light-y: 70%;
-  }
-
-  80% {
-    --light-x: 10%;
-    --light-y: 88%;
+    --light-y: 82%;
   }
 
   100% {
     --light-x: 5%;
-    --light-y: 15%;
+    --light-y: 12%;
+  }
+}
+
+@keyframes sweepLightBeamRtl {
+  0% {
+    --light-x-rtl: 95%;
+    --light-y-rtl: 12%;
+  }
+
+  25% {
+    --light-x-rtl: 5%;
+    --light-y-rtl: 28%;
+  }
+
+  50% {
+    --light-x-rtl: 92%;
+    --light-y-rtl: 55%;
+  }
+
+  75% {
+    --light-x-rtl: 8%;
+    --light-y-rtl: 82%;
+  }
+
+  100% {
+    --light-x-rtl: 95%;
+    --light-y-rtl: 12%;
   }
 }
 
@@ -130,7 +177,19 @@
 @property --light-y {
   syntax: "<percentage>";
   inherits: false;
-  initial-value: 15%;
+  initial-value: 12%;
+}
+
+@property --light-x-rtl {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 95%;
+}
+
+@property --light-y-rtl {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 12%;
 }
 
 .manifesto-container {
