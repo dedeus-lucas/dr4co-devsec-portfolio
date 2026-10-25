@@ -1,9 +1,9 @@
 export const translations = {
   "pt-BR": {
     // Metadata
-    pageTitle: "Shield Protocol - Cybersecurity Engineering & Red Team",
+    pageTitle: "Shield Protocol // Cybersecurity & Cloud Security Engineering",
     pageDesc:
-      "Portfólio de engenharia de cibersegurança com foco em backend seguro, DevSecOps, Cloud Security, AppSec e operações defensivas.",
+      "Portfólio de engenharia de cibersegurança e cloud security com foco em arquitetura defensiva, DevSecOps e fundamentos de Red Team por Lucas Silva (DR4CO).",
 
     // Hero Section
     btnProjects: "Ver Projetos",
@@ -20,56 +20,57 @@ export const translations = {
     manifestoSectionTag: "[ SOBRE // FILOSOFIA ]",
     manifestoTitle:
       'Segurança não é uma camada sobreposta. É a <span class="highlight">engenharia invisível</span> que garante resiliência, mitigação de riscos e integridade operacional contínua.',
-    aboutCard1Tag: "01 // SECURITY ENGINEERING",
-    aboutCard1Title: "Engenharia de Cibersegurança",
+    aboutCard1Tag: "01 // SECURITY ENGINEERING & BACKEND",
+    aboutCard1Title: "Engenharia de Cibersegurança & Backend",
     aboutCard1Desc:
-      "Arquitetura de sistemas resilientes, segurança e proteção de APIs RESTful, modelagem de ameaças e isolamento criptográfico em memória RAM (AES-256-GCM / Java 21).",
-    aboutCard2Tag: "02 // RED TEAM & PENTEST",
-    aboutCard2Title: "Segurança Ofensiva & Testes",
+      "Desenvolvimento de software seguro com Java 21 e Spring Boot, implementação de criptografia forte (AES-256-GCM), proteção de APIs RESTful e isolamento de segredos na memória RAM.",
+    aboutCard2Tag: "02 // RED TEAM & OFFENSIVE MINDSET",
+    aboutCard2Title: "Fundamentos de Red Team & Pentest",
     aboutCard2Desc:
-      "Fundamentos de testes de intrusão, mapeamento do OWASP Top 10, simulação de adversários, auditoria ativa de vulnerabilidades e automação de scripts táticos com Python.",
-    aboutCard3Tag: "03 // DEVSECOPS & CLOUD",
-    aboutCard3Title: "DevSecOps & Cloud Security",
+      "Compreensão aprofundada dos vetores de ataque do OWASP Top 10, simulação de adversários, análise de vulnerabilidades e automação de scripts táticos com Python e Linux para antecipar brechas defensivas.",
+    aboutCard3Tag: "03 // CLOUD SECURITY & DEVSECOPS",
+    aboutCard3Title: "Cloud Security & DevSecOps",
     aboutCard3Desc:
-      "Esteiras de CI/CD blindadas com SAST (Semgrep), SCA (Snyk), Secret Scanning (TruffleHog), hardening de contêineres Docker e gestão de postura de segurança em Cloud (AWS/GCP).",
+      "Esteiras de CI/CD blindadas com Shift-Left Security (Semgrep SAST, Snyk SCA, TruffleHog Secret Scanning), hardening de contêineres Docker e postura defensiva em nuvem (AWS/GCP).",
 
     // Seção 3: Jornada // Trajetória
     journeySectionTag: "[ JORNADA // TRAJETÓRIA ]",
-    journeyTitle: "Evolução técnica contínua e fundamentada em engenharia e segurança ofensiva",
+    journeyTitle:
+      "Evolução técnica contínua fundamentada em engenharia, nuvem e segurança defensiva",
     journeySubtitle:
-      "Construção gradual de conhecimento prático, transicionando da base teórica e suporte operacional para arquitetura de sistemas seguros, DevSecOps e simulação de adversários.",
+      "Construção gradual de conhecimento prático, transicionando da base teórica de computação e suporte operacional para engenharia de cibersegurança, cloud security e testes de intrusão.",
     j2024Title: "Fundamentos & Ciência da Computação",
     j2024Desc:
-      "Ingresso no Bacharelado em Ciência da Computação. Consolidação dos pilares de redes, arquitetura de SO (Linux/Windows), algoritmos, programação orientada a objetos e base em C, Java e automação.",
-    j2025Title: "Backend Seguro, Cloud & DevSecOps",
+      "Ingresso no Bacharelado em Ciência da Computação. Consolidação dos pilares estruturais de redes, arquitetura de sistemas operacionais (Linux/Windows), algoritmos, lógica computacional e POO (Java, C e Shell Scripting).",
+    j2025Title: "ADS (UESB), DevSecOps & Cloud Security",
     j2025Desc:
-      "Ingresso em ADS na UESB e especializações em DevSecOps e Cibersegurança (Hackers do Bem, Mente Binária, AWS re/Start). Aprofundamento em Java 21, Spring Boot, Spring Security, Docker e Cloud Security (AWS/GCP).",
-    j2026Title: "Projetos Críticos, Suporte & Sentinel Vault",
+      "Ingresso em ADS na UESB e especializações em DevSecOps e Segurança (Hackers do Bem, Mente Binária, AWS re/Start). Imersão em Java 21, Spring Boot, Spring Security, Docker e segurança em nuvem (AWS/GCP).",
+    j2026Title: "Projetos Críticos, Suporte & Sentinel Ecosystem",
     j2026Desc:
-      "Atuação prática em suporte técnico e ambientes computacionais (Rede ProCursos). Desenvolvimento do ecossistema autoral Sentinel Vault, integração de esteiras CI/CD com SAST/SCA e automações em Python.",
-    jFutureTitle: "Cybersecurity Engineering & Red Team",
+      "Atuação em suporte técnico e infraestrutura computacional (Rede ProCursos). Desenvolvimento da infraestrutura autoral do Sentinel Vault e Sentinel Env Injector, esteiras CI/CD seguras e automações em Python.",
+    jFutureTitle: "Cybersecurity Engineer, Cloud Security & Red Team",
     jFutureDesc:
-      "Especialização avançada em Application Security (AppSec), Red Teaming, pentest de aplicações complexas, mitigação de ameaças em tempo real e arquitetura de sistemas distribuídos resilientes.",
+      "Atuação como Engenheiro de Cibersegurança e Cloud Security, evoluindo para operações avançadas de Red Team, pentesting de aplicações complexas e proteção de infraestruturas críticas distribuídas.",
 
     // Seção 4: Stack Técnico // Bento Grid
     stackSectionTag: "[ STACK // TECNOLOGIAS ]",
     stackTitle: "Tecnologias, Ferramentas e Ecossistema Tático",
     stackCard1Tag: "01 // CORE BACKEND & APIS",
-    catBackendTitle: "Engenharia Backend & Sistemas",
+    catBackendTitle: "Engenharia Backend & Sistemas Seguros",
     catBackendDesc:
-      "Desenvolvimento de APIs REST stateless e resilientes com Java 21 e Spring Boot, persistência segura com JPA/Hibernate e PostgreSQL, além de arquitetura orientada a Clean Architecture.",
-    stackCard2Tag: "02 // DEVSECOPS & CLOUD",
-    catSecurityTitle: "DevSecOps & Cloud Security",
+      "Desenvolvimento de APIs REST stateless e resilientes com Java 21 e Spring Boot, persistência com JPA/PostgreSQL e arquitetura desacoplada orientada a Clean Architecture.",
+    stackCard2Tag: "02 // CLOUD & DEVSECOPS",
+    catSecurityTitle: "Cloud Security & Esteiras DevSecOps",
     catSecurityDesc:
-      "Esteiras CI/CD blindadas com análise SAST/SCA, Secret Scanning, contêineres Docker e postura defensiva em nuvem AWS e GCP.",
-    stackCard3Tag: "03 // RED TEAM & APPSEC",
+      "Automação de esteiras CI/CD seguras (Shift-Left), análise estática de código (SAST), escaneamento de credenciais, contêineres Docker e postura defensiva em nuvem (AWS/GCP).",
+    stackCard3Tag: "03 // RED TEAM & OFFENSIVE",
     catToolsTitle: "Segurança Ofensiva & Análise",
     catToolsDesc:
-      "Fundamentos de Pentest, mitigação do OWASP Top 10, simulação de adversários, auditoria de código, análise de redes e automações em Python e Linux.",
-    stackCard4Tag: "04 // HARDENING & OBSERVABILIDADE",
-    catQualityTitle: "Segurança Ativa, Hardening & Métricas",
+      "Fundamentos de Pentest, mitigação do OWASP Top 10, simulação de adversários, auditoria de código, análise de protocolos de rede e automações em Python e Linux.",
+    stackCard4Tag: "04 // HARDENING & CRIPTOGRAFIA",
+    catQualityTitle: "Criptografia Ativa, Hardening & Métricas",
     catQualityDesc:
-      "Isolamento de credenciais na RAM (AES-256-GCM), proteção anti-brute force via Rate Limiting (Bucket4j), testes automatizados e observabilidade de microsserviços em tempo real.",
+      "Proteção de dados em repouso com AES-256-GCM, isolamento volátil em RAM com higienização de buffers, rate limiting anti-brute force (Bucket4j) e observabilidade com Prometheus e Grafana.",
 
     // Seção 5: Galeria de Projetos
     projectsSectionTag: "[ PROJETOS // ENGENHARIA & ARQUITETURA ]",
@@ -101,12 +102,12 @@ export const translations = {
     contactTitle:
       'Pronto para construir e auditar <span class="highlight">sistemas blindados</span> e resilientes?',
     contactDesc:
-      "Aberto a oportunidades profissionais em Cybersecurity Engineering, DevSecOps, Application Security (AppSec), Cloud Security e operações de Red Team / Pentest.",
+      "Aberto a oportunidades profissionais em Cybersecurity Engineering, Cloud Security, DevSecOps, Application Security (AppSec) e operações de Red Team / Pentest.",
     protoCardNum: "01 // DISPONIBILIDADE TÁTICA",
     protoTitle: "Atuação & Prontidão Operacional",
     protoDesc:
-      "Disponível para contratação e atuação estratégica em Engenharia de Segurança, esteiras DevSecOps, auditorias de vulnerabilidades (SAST/SCA), Hardening e Segurança em Nuvem.",
-    statusText: "STATUS: DISPONÍVEL PARA CYBERSECURITY & DEVSECOPS",
+      "Disponível para contratação e atuação estratégica em Engenharia de Segurança, Cloud Security, esteiras DevSecOps, auditorias de código e pentest de aplicações.",
+    statusText: "STATUS: DISPONÍVEL PARA CYBERSECURITY, CLOUD & DEVSECOPS",
     timeLabel: "Tempo Médio de Resposta:",
     timeValue: "< 12 Horas",
     footerRights: "TODOS OS DIREITOS RESERVADOS.",
@@ -114,9 +115,9 @@ export const translations = {
   },
   "en-US": {
     // Metadata
-    pageTitle: "Shield Protocol - Cybersecurity Engineering & Red Team",
+    pageTitle: "Shield Protocol // Cybersecurity & Cloud Security Engineering",
     pageDesc:
-      "Cybersecurity engineering portfolio focusing on secure backend, DevSecOps, Cloud Security, AppSec, and offensive security architecture.",
+      "Cybersecurity and cloud security engineering portfolio focusing on defensive architecture, DevSecOps, and Red Team foundations by Lucas Silva (DR4CO).",
 
     // Hero Section
     btnProjects: "View Projects",
@@ -133,57 +134,57 @@ export const translations = {
     manifestoSectionTag: "[ ABOUT // PHILOSOPHY ]",
     manifestoTitle:
       'Security is not an added layer. It is the <span class="highlight">invisible engineering</span> that ensures resilience, risk mitigation, and continuous operational integrity.',
-    aboutCard1Tag: "01 // SECURITY ENGINEERING",
-    aboutCard1Title: "Cybersecurity Engineering",
+    aboutCard1Tag: "01 // SECURITY ENGINEERING & BACKEND",
+    aboutCard1Title: "Cybersecurity & Backend Engineering",
     aboutCard1Desc:
-      "Resilient systems architecture, REST API security and hardening, threat modeling, and in-memory cryptographic isolation (AES-256-GCM / Java 21).",
-    aboutCard2Tag: "02 // RED TEAM & PENTEST",
-    aboutCard2Title: "Offensive Security & Testing",
+      "Secure software engineering with Java 21 and Spring Boot, strong cryptography implementation (AES-256-GCM), RESTful API hardening, and volatile in-memory secret isolation.",
+    aboutCard2Tag: "02 // RED TEAM & OFFENSIVE MINDSET",
+    aboutCard2Title: "Red Team & Pentesting Foundations",
     aboutCard2Desc:
-      "Penetration testing fundamentals, OWASP Top 10 mitigation, adversary emulation, active vulnerability assessment, and tactical script automation via Python.",
-    aboutCard3Tag: "03 // DEVSECOPS & CLOUD",
-    aboutCard3Title: "DevSecOps & Cloud Security",
+      "Deep understanding of OWASP Top 10 attack vectors, adversary emulation, static vulnerability analysis, and tactical script automation in Python and Linux to anticipate defensive breaches.",
+    aboutCard3Tag: "03 // CLOUD SECURITY & DEVSECOPS",
+    aboutCard3Title: "Cloud Security & DevSecOps",
     aboutCard3Desc:
-      "Hardened CI/CD pipelines with SAST (Semgrep), SCA (Snyk), Secret Scanning (TruffleHog), Docker container hardening, and cloud security posture management (AWS/GCP).",
+      "Shift-Left CI/CD automation (Semgrep SAST, Snyk SCA, TruffleHog Secret Scanning), Docker container hardening, and cloud security posture management across AWS and GCP.",
 
     // Section 3: Journey // Trajectory
     journeySectionTag: "[ JOURNEY // TRAJECTORY ]",
     journeyTitle:
-      "Continuous technical evolution grounded in software engineering and offensive security",
+      "Continuous technical evolution grounded in software engineering, cloud, and defensive security",
     journeySubtitle:
-      "Gradual building of practical knowledge, transitioning from theoretical fundamentals and operational support to secure systems architecture, DevSecOps, and adversary simulation.",
+      "Gradual building of practical expertise, transitioning from computer science foundations and operational support to cybersecurity engineering, cloud security, and penetration testing.",
     j2024Title: "Fundamentals & Computer Science",
     j2024Desc:
-      "Formal entry into B.S. in Computer Science. Consolidation of structural pillars in networking, OS architecture (Linux/Windows), algorithms, OOP, and foundations in C, Java, and scripting.",
-    j2025Title: "Secure Backend, Cloud & DevSecOps",
+      "Formal entry into B.S. in Computer Science. Consolidation of structural pillars in networking, operating system architecture (Linux/Windows), algorithms, OOP, and foundations in Java, C, and Shell Scripting.",
+    j2025Title: "Systems Analysis (UESB), DevSecOps & Cloud",
     j2025Desc:
-      "Entry into Systems Analysis and Development at UESB and specialized cybersecurity programs (Hackers do Bem, Mente Binária, AWS re/Start). Deep dive into Java 21, Spring Boot, Spring Security, Docker, and Cloud Security (AWS/GCP).",
-    j2026Title: "Critical Projects, Support & Sentinel Vault",
+      "Entry into Systems Analysis at UESB and specialized cybersecurity programs (Hackers do Bem, Mente Binária, AWS re/Start). Deep dive into Java 21, Spring Boot, Spring Security, Docker, and cloud security architecture (AWS/GCP).",
+    j2026Title: "Critical Systems, IT Operations & Sentinel Ecosystem",
     j2026Desc:
-      "Hands-on IT support and computing environments operations (Rede ProCursos). Development of the proprietary Sentinel Vault ecosystem, CI/CD pipeline integration with SAST/SCA, and Python automation.",
-    jFutureTitle: "Cybersecurity Engineering & Red Team",
+      "Hands-on technical support and IT infrastructure operations (Rede ProCursos). Architectural engineering of the Sentinel Vault and Sentinel Env Injector ecosystem, secure CI/CD pipelines, and Python automation.",
+    jFutureTitle: "Cybersecurity Engineer, Cloud Security & Red Team",
     jFutureDesc:
-      "Advanced specialization in Application Security (AppSec), Red Teaming, complex application penetration testing, real-time threat mitigation, and resilient distributed systems architecture.",
+      "Strategic career entry into Cybersecurity and Cloud Security Engineering, evolving toward advanced Red Team operations, complex application pentesting, and critical distributed systems hardening.",
 
     // Section 4: Technical Stack // Bento Grid
     stackSectionTag: "[ STACK // TECHNOLOGIES ]",
     stackTitle: "Technologies, Tools and Tactical Ecosystem",
     stackCard1Tag: "01 // CORE BACKEND & APIS",
-    catBackendTitle: "Backend & Systems Engineering",
+    catBackendTitle: "Backend Engineering & Secure Systems",
     catBackendDesc:
-      "Development of resilient stateless REST APIs with Java 21 and Spring Boot, secure persistence with JPA/Hibernate and PostgreSQL, and Clean Architecture design.",
-    stackCard2Tag: "02 // DEVSECOPS & CLOUD",
-    catSecurityTitle: "DevSecOps & Cloud Security",
+      "Development of resilient stateless REST APIs with Java 21 and Spring Boot, secure persistence with JPA/PostgreSQL, and Clean Architecture design.",
+    stackCard2Tag: "02 // CLOUD & DEVSECOPS",
+    catSecurityTitle: "Cloud Security & DevSecOps Pipelines",
     catSecurityDesc:
-      "Hardened CI/CD pipelines with SAST/SCA analysis, Secret Scanning, Docker containerization, and defensive posture across AWS and GCP clouds.",
-    stackCard3Tag: "03 // RED TEAM & APPSEC",
+      "Shift-Left CI/CD automation, static code analysis (SAST), Secret Scanning, Docker containerization, and defensive posture across AWS and GCP clouds.",
+    stackCard3Tag: "03 // RED TEAM & OFFENSIVE",
     catToolsTitle: "Offensive Security & Analysis",
     catToolsDesc:
       "Penetration testing fundamentals, OWASP Top 10 mitigation, adversary emulation, source code auditing, network analysis, and automation in Python and Linux.",
-    stackCard4Tag: "04 // HARDENING & OBSERVABILITY",
-    catQualityTitle: "Active Security, Hardening & Metrics",
+    stackCard4Tag: "04 // HARDENING & CRYPTOGRAPHY",
+    catQualityTitle: "Active Cryptography, Hardening & Metrics",
     catQualityDesc:
-      "In-memory credential isolation (AES-256-GCM), brute-force defense via rate limiting (Bucket4j), automated testing, and real-time microservices observability.",
+      "Data at rest encryption via AES-256-GCM, in-memory RAM isolation with active buffer hygiene, brute-force defense via rate limiting (Bucket4j), and Prometheus/Grafana observability.",
 
     // Section 5: Projects
     projectsSectionTag: "[ PROJECTS // ENGINEERING & ARCHITECTURE ]",
@@ -215,12 +216,12 @@ export const translations = {
     contactTitle:
       'Ready to build and audit <span class="highlight">hardened systems</span> and resilient infrastructure?',
     contactDesc:
-      "Open to career opportunities in Cybersecurity Engineering, DevSecOps, Application Security (AppSec), Cloud Security, and Red Team / Pentest operations.",
+      "Open to career opportunities in Cybersecurity Engineering, Cloud Security, DevSecOps, Application Security (AppSec), and Red Team / Pentest operations.",
     protoCardNum: "01 // TACTICAL AVAILABILITY",
     protoTitle: "Operations & Readiness",
     protoDesc:
-      "Available for strategic engagement in Security Engineering, hardened DevSecOps pipelines, vulnerability assessments (SAST/SCA), system hardening, and Cloud Security.",
-    statusText: "STATUS: AVAILABLE FOR CYBERSECURITY & DEVSECOPS ROLES",
+      "Available for strategic engagement in Security Engineering, Cloud Security, hardened DevSecOps pipelines, vulnerability assessments, and application pentesting.",
+    statusText: "STATUS: AVAILABLE FOR CYBERSECURITY, CLOUD & DEVSECOPS ROLES",
     timeLabel: "Average Response Time:",
     timeValue: "< 12 Hours",
     footerRights: "ALL RIGHTS RESERVED.",
