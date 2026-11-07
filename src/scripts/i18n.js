@@ -1,7 +1,7 @@
 export const translations = {
   "pt-BR": {
     // Metadata
-    pageTitle: "DR4CO.DEVSEC // Cybersecurity & Cloud Security Architecture",
+    pageTitle: "DR4CO.DEVSEC // PETRIUM TECH — Software Engineering Division",
     pageDesc:
       "Portfólio de engenharia de cibersegurança e cloud security com foco em arquitetura defensiva, DevSecOps e fundamentos de Red Team por Lucas Silva (DR4CO).",
 
@@ -114,10 +114,13 @@ export const translations = {
     timeValue: "< 12 Horas",
     footerRights: "TODOS OS DIREITOS RESERVADOS.",
     navResume: "CURRÍCULO",
+    chancelaText: "PETRIUM TECH | Software Engineering Division",
+    footerInstitutionalText:
+      "Este portfólio de Engenharia de Software reúne projetos, arquiteturas de sistemas e soluções de infraestrutura desenvolvidos sob a chancela da PETRIUM GROUP TECNOLOGIA LTDA (Nome Fantasia: PETRIUM TECH). Especializada em desenvolvimento de software resiliente, computação em nuvem e cibersegurança, a Petrium Tech fornece a base tecnológica e arquitetural para plataformas de missão crítica e produtos digitais corporativos.",
   },
   "en-US": {
     // Metadata
-    pageTitle: "DR4CO.DEVSEC // Cybersecurity & Cloud Security Architecture",
+    pageTitle: "DR4CO.DEVSEC // PETRIUM TECH — Software Engineering Division",
     pageDesc:
       "Cybersecurity and cloud security engineering portfolio focusing on defensive architecture, DevSecOps, and Red Team foundations by Lucas Silva (DR4CO).",
 
@@ -230,6 +233,9 @@ export const translations = {
     timeValue: "< 12 Hours",
     footerRights: "ALL RIGHTS RESERVED.",
     navResume: "RÉSUMÉ",
+    chancelaText: "PETRIUM TECH | Software Engineering Division",
+    footerInstitutionalText:
+      "This Software Engineering portfolio gathers projects, system architectures, and infrastructure solutions developed under the governance of PETRIUM GROUP TECNOLOGIA LTDA (Trade Name: PETRIUM TECH). Specialized in resilient software engineering, cloud computing, and cybersecurity, Petrium Tech provides the technological and architectural foundation for mission-critical platforms and enterprise-grade digital systems.",
   },
 };
 

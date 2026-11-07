@@ -75,9 +75,9 @@
 
 .brand-sub-author {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.58rem;
   font-weight: 700;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.08em;
   color: var(--text-muted);
   text-transform: uppercase;
   text-align: center;
@@ -309,8 +309,8 @@
   }
 
   .brand-sub-author {
-    font-size: 0.58rem;
-    letter-spacing: 0.22em;
+    font-size: 0.5rem;
+    letter-spacing: 0.04em;
   }
 
   .mobile-menu-btn {
