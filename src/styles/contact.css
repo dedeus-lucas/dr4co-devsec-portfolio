@@ -586,7 +586,9 @@
   }
 
   .footer-brand-logo {
-    display: none;
+    display: block;
+    width: 36px;
+    height: 36px;
   }
 
   .footer-copy {

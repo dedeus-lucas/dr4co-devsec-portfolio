@@ -298,9 +298,14 @@
 
   .navbar-nav-desktop,
   .navbar-brand-badge,
-  .nav-lang-desktop,
-  .navbar-brand-logo {
+  .nav-lang-desktop {
     display: none !important;
+  }
+
+  .navbar-brand-logo {
+    display: block !important;
+    width: 36px;
+    height: 36px;
   }
 
   .brand-shield-title {

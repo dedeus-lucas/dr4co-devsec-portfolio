@@ -15,7 +15,7 @@
 ## ENGLISH DOCUMENTATION
 
 ### Overview
-DR4CO.DEVSEC is the Software Engineering & Cybersecurity portfolio developed under the institutional governance of **PETRIUM GROUP TECNOLOGIA LTDA (Trade Name: PETRIUM TECH)** and engineered by Lucas Silva de Deus for cybersecurity operations, cloud security architecture, and offensive adversary emulation. Built upon a Tactical Military Retro-Cyberpunk design system (HUD telemetry, isolation barriers, and volatile memory buffers), it is optimized for sub-millisecond responsiveness, zero-overhead asset delivery, and resilient critical infrastructure patterns.
+DR4CO.DEVSEC is the Software Engineering & Cybersecurity portfolio developed under the institutional governance of **PETRIUM GROUP TECNOLOGIA LTDA (PETRIUM TECH)** and engineered by Lucas Silva de Deus for cybersecurity operations, cloud security architecture, and offensive adversary emulation. Built upon a Tactical Military Retro-Cyberpunk design system (HUD telemetry, isolation barriers, and volatile memory buffers), it is optimized for sub-millisecond responsiveness, zero-overhead asset delivery, and resilient critical infrastructure patterns.
 
 ### Core Security Capabilities
 - Cybersecurity Engineering: Resilient distributed systems architecture, enterprise threat modeling, RESTful API hardening, and defense-in-depth enforcement.
@@ -118,7 +118,7 @@ Distributed under the MIT License. See LICENSE for full terms and conditions.
 ## DOCUMENTAÇÃO EM PORTUGUÊS
 
 ### Visão Geral
-O DR4CO.DEVSEC é o portfólio de Engenharia de Software e Cibersegurança desenvolvido sob a chancela institucional da **PETRIUM GROUP TECNOLOGIA LTDA (Nome Fantasia: PETRIUM TECH)** por Lucas Silva de Deus, demonstrando competências práticas em engenharia de software resiliente, arquitetura de Cloud Security, esteiras DevSecOps e operações de Red Team. Construído sob uma direção visual Retro-Cyberpunk Tática Militar (telemetria em HUD, malhas de contenção e buffers voláteis), a aplicação prioriza zero overhead de execução, renderização veloz e princípios de resiliência aplicados a infraestruturas críticas.
+O DR4CO.DEVSEC é o portfólio de Engenharia de Software e Cibersegurança desenvolvido sob a chancela institucional da **PETRIUM GROUP TECNOLOGIA LTDA (PETRIUM TECH)** por Lucas Silva de Deus, demonstrando competências práticas em engenharia de software resiliente, arquitetura de Cloud Security, esteiras DevSecOps e operações de Red Team. Construído sob uma direção visual Retro-Cyberpunk Tática Militar (telemetria em HUD, malhas de contenção e buffers voláteis), a aplicação prioriza zero overhead de execução, renderização veloz e princípios de resiliência aplicados a infraestruturas críticas.
 
 ### Pilares de Atuação em Segurança
 - Engenharia de Cibersegurança: Arquitetura de sistemas resilientes, modelagem de ameaças corporativas, proteção ativa de APIs RESTful e aplicação de defesa em profundidade.

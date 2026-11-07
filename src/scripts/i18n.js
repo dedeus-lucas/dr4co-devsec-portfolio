@@ -116,7 +116,7 @@ export const translations = {
     navResume: "CURRÍCULO",
     chancelaText: "PETRIUM TECH | Software Engineering Division",
     footerInstitutionalText:
-      "Este portfólio de Engenharia de Software reúne projetos, arquiteturas de sistemas e soluções de infraestrutura desenvolvidos sob a chancela da PETRIUM GROUP TECNOLOGIA LTDA (Nome Fantasia: PETRIUM TECH). Especializada em desenvolvimento de software resiliente, computação em nuvem e cibersegurança, a Petrium Tech fornece a base tecnológica e arquitetural para plataformas de missão crítica e produtos digitais corporativos.",
+      "Este portfólio de Engenharia de Software reúne projetos, arquiteturas de sistemas e soluções de infraestrutura desenvolvidos sob a chancela da PETRIUM GROUP TECNOLOGIA LTDA (PETRIUM TECH). Especialista em desenvolvimento de software resiliente, computação em nuvem e cibersegurança, a Petrium Tech fornece a base tecnológica e arquitetural para plataformas de missão crítica e produtos digitais corporativos.",
   },
   "en-US": {
     // Metadata
@@ -235,7 +235,7 @@ export const translations = {
     navResume: "RÉSUMÉ",
     chancelaText: "PETRIUM TECH | Software Engineering Division",
     footerInstitutionalText:
-      "This Software Engineering portfolio gathers projects, system architectures, and infrastructure solutions developed under the governance of PETRIUM GROUP TECNOLOGIA LTDA (Trade Name: PETRIUM TECH). Specialized in resilient software engineering, cloud computing, and cybersecurity, Petrium Tech provides the technological and architectural foundation for mission-critical platforms and enterprise-grade digital systems.",
+      "This Software Engineering portfolio gathers projects, system architectures, and infrastructure solutions developed under the governance of PETRIUM GROUP TECNOLOGIA LTDA (PETRIUM TECH). Specialized in resilient software engineering, cloud computing, and cybersecurity, Petrium Tech provides the technological and architectural foundation for mission-critical platforms and enterprise-grade digital systems.",
   },
 };
 
